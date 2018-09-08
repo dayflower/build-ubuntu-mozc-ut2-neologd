@@ -8,7 +8,7 @@ RUN set -x && \
 
 RUN set -x && \
     cd /root && \
-    curl -v -L -o mozc.tar.gz 'https://osdn.net/frs/chamber_redir.php?m=jaist&f=%2Fusers%2F22%2F22338%2Fmozc-2.23.2815.102%2Bdfsg%7Eut2-20171008d%2B20180831.tar.xz' && \
+    curl -v -L -o mozc.tar.xz 'https://osdn.net/frs/chamber_redir.php?m=jaist&f=%2Fusers%2F22%2F22338%2Fmozc-2.23.2815.102%2Bdfsg%7Eut2-20171008d%2B20180831.tar.xz' && \
     mkdir mozc && \
     tar xvf mozc.tar.xz --strip-components=1 -C mozc && \
     cd mozc/mut && \
